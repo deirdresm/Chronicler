@@ -15,6 +15,8 @@
 		384170DE2A48EEA7007DAD5A /* ChroniclerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384170DD2A48EEA7007DAD5A /* ChroniclerTests.swift */; };
 		384170E82A48EEA7007DAD5A /* ChroniclerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384170E72A48EEA7007DAD5A /* ChroniclerUITests.swift */; };
 		384170EA2A48EEA7007DAD5A /* ChroniclerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384170E92A48EEA7007DAD5A /* ChroniclerUITestsLaunchTests.swift */; };
+		384170F72A48EEC3007DAD5A /* FieldEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384170F62A48EEC3007DAD5A /* FieldEvent.swift */; };
+		3846C9EE2A99D9BC0083D46F /* EnhancementItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3846C9ED2A99D9BC0083D46F /* EnhancementItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		384170E32A48EEA7007DAD5A /* ChroniclerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChroniclerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384170E72A48EEA7007DAD5A /* ChroniclerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChroniclerUITests.swift; sourceTree = "<group>"; };
 		384170E92A48EEA7007DAD5A /* ChroniclerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChroniclerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		384170F62A48EEC3007DAD5A /* FieldEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEvent.swift; sourceTree = "<group>"; };
+		3846C9ED2A99D9BC0083D46F /* EnhancementItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancementItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				384170C92A48EEA5007DAD5A /* ChroniclerApp.swift */,
 				384170CB2A48EEA5007DAD5A /* Item.swift */,
+				3846C9ED2A99D9BC0083D46F /* EnhancementItem.swift */,
 				384170CD2A48EEA5007DAD5A /* ContentView.swift */,
+				384170F62A48EEC3007DAD5A /* FieldEvent.swift */,
 				384170CF2A48EEA7007DAD5A /* Assets.xcassets */,
 				384170D12A48EEA7007DAD5A /* Chronicler.entitlements */,
 				384170D22A48EEA7007DAD5A /* Preview Content */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3846C9EE2A99D9BC0083D46F /* EnhancementItem.swift in Sources */,
 				384170CC2A48EEA5007DAD5A /* Item.swift in Sources */,
+				384170F72A48EEC3007DAD5A /* FieldEvent.swift in Sources */,
 				384170CA2A48EEA5007DAD5A /* ChroniclerApp.swift in Sources */,
 				384170CE2A48EEA5007DAD5A /* ContentView.swift in Sources */,
 			);
